@@ -1,0 +1,90 @@
+body{ background: #360033;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     }
+
+main{ width: 1000px;
+margin:0 auto;
+margin-top: 150px;
+display:flex;
+justify-content: space-between;
+}
+main section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.secaoInsercaoInformacoes{ 
+    width: 680px;
+}
+.secaoInsercaoInformacoes h1{
+    font-size: 30px;
+    font-weight: bold;}
+.secaoInsercaoInformacoes input{
+    display: block;
+    width: 100%;
+    border:none;
+    -webkit-box-shadow: 0px 3px 11px 4px rgba(176,176,176,0.6); 
+    box-shadow: 0px 13px 11px -4px rgba(176,176,176,0.6);  
+    outline:none ;
+    border-radius: 5px;
+    height: 25px;
+    padding: 0 5px;
+    box-sizing: border-box;}
+.secaoInsercaoInformacoes button{
+    background-color: #2685da;
+    display: block;
+    width:100%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 0;
+    border-radius: 5px;
+ }
+
+
+.formularioEntradaOrcamento{}
+.formularioEntradaOrcamento h2{ 
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.formularioEntradaOrcamento input{}
+.formularioEntradaOrcamento button{}
+
+.formularioEntradaDespesa{}
+.formularioEntradaDespesa h2{}
+.formularioEntradaDespesa input{}
+.formularioEntradaDespesa button{}
+
+.containerDespesas{}
+
+.containerDespesas_cabecalho{}
+.containerDespesas_cabecalho p{}
+
+.containerdespesasa_lista{}
+.containerdespesasa_lista li{}
+.containerdespesasa_lista li h3{}
+.containerdespesasa_lista li p{}
+.containerdespesasa_lista li img{}
+
+.secaoImpressaoResutados{ 
+    width: 200px;
+}
+
+.secaoImpressaoResutados div{}
+.secaoImpressaoResutados div h3{}
+.secaoImpressaoResutados div p{}
+
+.secaoImpressaoResutados_orcamento{}
+.secaoImpressaoResutados_orcamento h3{}
+.secaoImpressaoResutados_orcamento p{}
+
+.secaoImpressaoResultados_despesas{}
+.secaoImpressaoResultados_despesas h3{}
+.secaoImpressaoResultados_despesas p{}
+
+.secaoImpressaoResultado_saldo{}
+.secaoImpressaoResultado_saldo h3{}
+.secaoImpressaoResultado_saldo p{}
